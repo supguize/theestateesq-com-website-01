@@ -36,6 +36,7 @@
 import React from 'react';
 import './App.css';
 import mainLogo from './assets/web-logo-w.png'
+import { FaEnvelope } from 'react-icons/fa';
 
 function App() {
   return (
@@ -48,8 +49,8 @@ function App() {
         <p>We are working on something really cool.</p>
         <div className="spacer-39px"></div>
         <div className="spacer-39px"></div>
-        <a href='mailto:clayton@theestateesq.com'>Contact Us</a>
-        <p><i className="fas fa-home"></i></p>
+        <a href='mailto:clayton@theestateesq.com'><FaEnvelope /> Contact Us</a>
+        
       </div>
     </div>
   );
