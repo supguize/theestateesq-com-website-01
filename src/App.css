@@ -1,4 +1,4 @@
-#root {
+/* #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -39,4 +39,76 @@
 
 .read-the-docs {
   color: #888;
+} */
+/* General reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  width: 100%;
+}
+
+body, html, #root {
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+/* Background image setup */
+.landing-container {
+  height: 100vh; /* Full height of the viewport */
+  background-image: url('assets/background.png'); /* Replace with your own image URL */
+  background-repeat: repeat; /* Ensures the image repeats */
+  background-size: auto; /* Avoid stretching */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center top;
+}
+
+/* Centered box style */
+.centered-box {
+  background-color: rgba(158, 141, 133, 0.85); /* Semi-transparent white */
+  padding: 30px;
+  border-radius: 15px; /* Rounded corners */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow for a subtle 3D effect */
+  text-align: center; /* Center text inside the box */
+  width: 100%;
+  max-width: 490px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  font-family: "Kaushan Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: #442211;
+}
+
+p {
+  font-family: "Lato", sans-serif;
+  font-size: 1.2rem;
+  color: #442211;
+}
+
+a {
+  font-family: "Kaushan Script", cursive;
+  font-size: 1.5rem;
+}
+
+a:visited, a:link {
+  color: #442211;
+  padding: 12px 16px;
+  border-radius: 4px;
+  border: 1px solid rgb(68, 34, 17);
+}
+a:hover {
+  color: #2e170b!important;
+}
+.spacer-39px {
+  height: 39px;
 }
