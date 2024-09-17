@@ -33,7 +33,6 @@
 // }
 
 // export default App
-import React from 'react';
 import './App.css';
 import mainLogo from './assets/web-logo-w.png'
 import { FaEnvelope } from 'react-icons/fa';
