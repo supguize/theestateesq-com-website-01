@@ -50,7 +50,6 @@ function App() {
         <div className="spacer-39px"></div>
         <div className="spacer-39px"></div>
         <a href='mailto:clayton@theestateesq.com'><FaEnvelope /> Contact Us</a>
-        
       </div>
     </div>
   );
